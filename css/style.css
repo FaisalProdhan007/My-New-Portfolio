@@ -204,6 +204,108 @@ footer a:hover {
 }
 
 /* ===========================
+   ABOUT PAGE STYLES
+=========================== */
+
+.about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #0078ff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  flex: 1 1 55%;
+  padding: 20px;
+}
+
+.about-text h2 {
+  color: #0078ff;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Skills Section */
+.skills {
+  background: #f8f9fb;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #0078ff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  background: #0078ff;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-image img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    padding: 10px;
+  }
+}
+
+/* ===========================
    SERVICES PAGE STYLES
 =========================== */
 
@@ -599,6 +701,7 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
