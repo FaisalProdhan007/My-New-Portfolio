@@ -702,4 +702,122 @@ footer a:hover {
   }
 }
 
+/* ===========================
+   HOMEPAGE ENHANCEMENTS
+=========================== */
+
+/* Modern Hero */
+.modern-hero {
+  background: linear-gradient(120deg, #0078ff, #00b4d8);
+  color: #fff;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.modern-hero h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.modern-hero h3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills {
+  background: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #0078ff;
+  font-size: 2rem;
+}
+
+.section-intro {
+  color: #555;
+  margin: 15px auto 50px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.skill-card {
+  background: #f8f9fb;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.skill-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  background: #0078ff;
+  color: #fff;
+}
+
+/* About Preview Section */
+.about-preview {
+  background: #f0f6ff;
+  padding: 80px 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  gap: 40px;
+}
+
+.about-text h2 {
+  color: #0078ff;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(to right, #0078ff, #00b4d8);
+  color: #fff;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.cta-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.cta-section p {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.cta-section .btn {
+  background: #fff;
+  color: #0078ff;
+  font-weight: 600;
+}
+
+
+
 
