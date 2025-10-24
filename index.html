@@ -12,6 +12,15 @@
   <header class="header">
     <div class="container nav-container">
       <h1 class="logo">Faisal<span>Ahmed</span></h1>
+
+      <!-- Hamburger Icon -->
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <!-- Navigation -->
       <nav class="nav">
         <ul class="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
@@ -24,6 +33,19 @@
       </nav>
     </div>
   </header>
+
+  <script>
+    // Hamburger toggle script
+    const menu = document.querySelector('#mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    menu.addEventListener('click', () => {
+      menu.classList.toggle('is-active');
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -156,3 +178,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
